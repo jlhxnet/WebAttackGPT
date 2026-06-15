@@ -1,18 +1,24 @@
-WebAttackGPT
-Source code for the paper submitted to PeerJ.
+# WebAttackGPT
 
-Environment Setup
+## Copyright & Usage Notice
+Copyright (c) 2025. All rights reserved.
+This source code is provided **solely for technical exchange, learning, and research purposes only**.
+Unauthorized use, reproduction, modification, or distribution of this code, in whole or in part, for academic publication, commercial use, or any other form of public dissemination is strictly prohibited without explicit written permission from the author.
+
+---
+
+## Environment Setup
 Install all dependencies with:
 pip install -r requirements.txt
 
-Project Structure
+## Project Structure
 - baseline/: Implementation of all baseline comparison models
 - dataset/, csicdataset/: Dataset files and related resources
 - csicpreprocess.py, owasappreprocess.py: Data preprocessing scripts
 - gpt.py, decoderlayer.py, multihadattention.py: Core modules of the proposed model
 - common.py, dataset.py, load_model.py: General utility functions
 
-Usage
+## Usage
 1. Model Training
 python train.py
 
@@ -23,7 +29,7 @@ python evaluate_AARE.py
 3. Baseline Experiments
 Navigate into the baseline folder and run the corresponding scripts to reproduce baseline experimental results.
 
-Notes
+## Notes
 - Existing log files and generated figures are demonstration results from local runs. You can regenerate new logs and figures by executing the code.
 - Trained model weights are not included in this package.
 - All experiments in this paper can be fully reproduced with the provided code.
