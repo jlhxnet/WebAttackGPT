@@ -1,0 +1,23 @@
+================================================================================
+DistilGPT2 Evaluation Result
+================================================================================
+Accuracy: 0.8015
+
+              precision    recall  f1-score   support
+
+        cmdi     0.8764    0.7463    0.8062      1967
+      normal     0.7390    0.9405    0.8276      2992
+        sqli     1.0000    0.5432    0.7040      1077
+         xss     0.7889    0.7053    0.7448       302
+
+    accuracy                         0.8015      6338
+   macro avg     0.8511    0.7338    0.7706      6338
+weighted avg     0.8284    0.8015    0.7960      6338
+
+
+Params: 81,912,576
+Size: 312.47 MB
+Test Samples: 6338
+Total Inference Time: 196.63 s
+Average Latency: 31.02 ms/sample
+Throughput: 32.23 samples/s
